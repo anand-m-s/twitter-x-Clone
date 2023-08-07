@@ -1,0 +1,451 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #fff;
+    font-family: twitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+
+}
+
+.r-8kz0gk {
+    height: 2rem;
+}
+
+.r-jwli3a {
+    color: rgb(255, 255, 255);
+}
+
+#x-logo {
+    border-radius: 3rem;
+    width: 3rem;
+
+}
+
+#home-btn {
+    font-weight: bold;
+}
+
+.left-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    height: 100vh;
+}
+
+.left-buttons svg {
+    width: 2rem;
+    float: left;
+}
+
+.left-buttons button {
+    border: 0;
+    background: transparent;
+    border-radius: 2rem;
+    padding: .5rem;
+    text-align: left;
+    font-size: 1.2rem;
+    display: flex;
+    cursor: pointer;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-buttons button:hover {
+    background: #ebebeb;
+}
+
+.btn {
+    padding-left: 1rem;
+}
+
+
+.left-section {
+    border-right: 0.3px solid rgb(239, 232, 232);
+    position: fixed;
+
+
+}
+#post-btn{
+    background-color: rgb(29, 155, 240);
+    color: #fff;
+}
+
+.home-nav h2 {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.main-body {
+    margin-left: 25.1rem;
+    position: fixed;
+    border-bottom: 0.3px solid rgb(239, 232, 232);
+    border-right: 0.3px solid rgb(239, 232, 232);
+    background-color: transparent;
+    backdrop-filter: blur(35px);
+    /* Apply a blur effect */
+}
+
+.head-btn {
+    display: flex;
+    justify-content: space-around;
+    /* backdrop-filter: blur(10px); 
+     background: transparent; */
+
+}
+
+.head-btn button {
+    border: none;
+    cursor: pointer;
+    width: 19rem;
+    height: 3.3rem;
+    font-size: 1rem;
+    font-weight: normal;
+    background: transparent;
+}
+
+.head-btn button:hover {
+    background: #f4f4f4;
+}
+
+.main-content {
+    width: 38rem;
+    margin-top: 7.1rem;
+    margin-left: 25.1rem;
+    height: 120vh;
+    border-right: 0.3px solid rgb(239, 232, 232);
+
+
+}
+
+.right-section {
+    margin-right: 6rem;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+    max-height: 100%;
+}
+/* Hide the scrollbar */
+.right-section::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.right-section::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.right-section::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.search-container {
+    position: fixed;
+    height: 3.6rem;
+    background-color: #fff;
+    width: 100%;
+
+
+}
+
+.search-input {
+    padding-left: 4rem;
+    margin-top: .5rem;
+    text-align: start;
+    border: 0;
+    background-color: rgb(245, 249, 249);
+    width: 18rem;
+    height: 2.7rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    color: rgb(87, 84, 84);
+
+}
+
+.right-partition-1 {
+    margin-top: 5rem;
+    background-color: rgb(245, 249, 249);
+    border-radius: 1.5rem;
+    width: 22rem;
+}
+.inner-content h3 {
+    padding-left: 1rem;
+    padding-top: .5rem;
+}
+
+.inner-content p {
+    padding-left: 1rem;
+    font-weight: 500;
+}
+
+.inner-content button {
+    height: 2.3rem;
+    border-radius: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    background: black;
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-partition-2 {
+    background-color: rgb(245, 249, 249);
+    border-radius: 1.5rem;
+    width: 22rem;
+    height: 60vh;
+    margin-top: 1rem;  
+}
+.right-partition-2 h3{
+    margin-left: 1rem;
+    padding-top: 20px;
+}
+#rp2-p{
+    margin-top: -12px;
+}
+#rp2-p2{
+    margin-top: -22px;
+}
+.r-p-2-content:hover{
+    background-color: #eaeded;
+    border-radius: 3px;
+}
+.r-p-2-content h5{
+    margin-top: -.8rem;
+    margin-left: 1rem;
+}
+.r-p-2-content p{
+    font-size: 13px;
+    color: #919191;
+    margin-left: 1rem;
+}
+.r-p-2-content{
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+
+
+
+.right-partition-3 {
+    background-color: rgb(245, 249, 249);
+    border-radius: 1.5rem;
+    width: 22rem;
+    height: 35vh;
+    margin-top: 1rem;
+}
+.r-p-3-content{
+    margin-top: 1rem;
+    cursor: pointer;
+    height: 4rem;
+  
+}
+.follow{
+    display: flex;
+    align-items: center;
+    float: left;
+ 
+}
+.r-p-3-content:hover{
+    background-color: #eaeded;
+    border-radius: 3px;
+}
+.r-p-3-content p{
+    font-size: 13px;
+    color: #919191;
+    margin-left: 1rem;
+}
+.r-p-3-content h5{
+    margin-left: .8rem;
+}
+.r-p-3-content svg{
+    width: 15px;
+}
+
+.right-partition-3 h3{
+    margin-left: 1rem;
+    padding-top: 20px;
+}
+.pro-pic-r img{
+    width: 40px;
+    margin-left: 1rem;
+}
+.r-p-3-content button{
+    background: #000;
+    color: #fff;
+    margin-left: 8rem;
+    margin-top: 15px;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+#show-more a{
+    text-align: center;
+    margin-left: 1rem;
+}
+.right-4 p{
+    color: #919191;
+    font-size: small;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+}
+.update-sec {
+    height: 7.5rem;
+    border-bottom: 0.3px solid rgb(239, 232, 232);
+}
+
+.update-sec1 {
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.update-sec2 {
+    height: 35%;
+    display: flex;
+    margin-top: 1rem;
+
+
+}
+
+.update-sec1 svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.update-sec1 input {
+    border: 0;
+    width: 100%;
+    outline: 0;
+    font-size: large;
+    margin-left: 1rem;
+    font-family: twitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.r-19wmn03 {
+    width: 20px;
+}
+
+.r-z80fyv {
+    height: 20px;
+}
+
+.r-1cvl2hr {
+    color: rgb(29, 155, 240);
+}
+
+.r-yyyyoo {
+    fill: currentcolor;
+}
+
+.update-icons {
+    display: flex;
+    gap: .5rem;
+    margin-left: 3rem;
+    cursor: pointer;
+
+}
+
+.update-icons svg:hover {
+    background: rgb(206, 230, 236);
+    border-radius: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all .5s;
+}
+
+.upd-btn button {
+    margin-left: 16rem;
+    border: 0;
+    background-color: rgb(131, 197, 240);
+    color: #fff;
+    height: 2.4rem;
+    width: 4.5rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.post-section {
+    height: 77%;
+    width: 100%;
+    border-bottom: 0.3px solid rgb(239, 232, 232);
+    border-right: 0.3px solid rgb(239, 232, 232);
+
+}
+
+.profile-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
+
+.profile-pic {
+    height: 42.5rem;
+    width: 4rem;
+    float: left;
+
+}
+
+/* svg verified */
+.r-f9ja8p {
+    max-height: 20px;
+}
+
+.r-og9te1 {
+    max-width: 20px;
+}
+
+.user-id {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 10px;
+    padding-top: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+
+.post-img {
+    height: 520px;
+    width: 380px;
+    border-radius: 15px;
+}
+
+.r-1hdv0qi {
+    width: 1.25em;
+}
+
+.reaction-btn {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
